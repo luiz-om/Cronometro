@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int time =10;
+int currentTime=0;
+
+while (currentTime != time)
+{
+    Console.Clear();
+    currentTime++;
+    System.Console.WriteLine(currentTime);
+    Thread.Sleep(1000);
+}
